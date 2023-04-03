@@ -1,0 +1,24 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+
+[project]
+name = "turtle_gcode"
+version = "0.0.2"
+authors = [
+  { name="Electric" },
+]
+description = "Convert turtle commands into G-Code"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3.10",
+    "License :: OSI Approved :: zlib/libpng License",
+    "Operating System :: OS Independent",
+]
+license = {text = "zlib/libpng License"}
+
+[project.urls]
+"Homepage" = "https://github.com/313ctric/turtle_gcode"
+"Bug Tracker" = "https://github.com/313ctric/turtle_gcode/issues"
